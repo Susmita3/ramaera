@@ -39,8 +39,8 @@ const Index = () => {
             best quality to the people.
           </p>
 
-          <div className="bg-gradient-to-r from-[#F9D423] to-[#E65C00] text-white rounded-2xl px-6 py-2 mt-5 border-2">
-            <button className="font-Montserrat text-[25px]">
+          <div className="bg-gradient-to-r from-[#F9D423] to-[#E65C00] text-white hover:text-[#F9D423] rounded-2xl px-6 py-2 mt-5 border-2">
+            <button className="font-Montserrat text-[25px] ">
               Explore more
             </button>
           </div>
@@ -54,7 +54,7 @@ const Index = () => {
 
           <div className="text-center ">
             <img src={MainHeading} alt="" className="" />
-            <p className=" font-Montserrat text-[42px] mt-2 mr-1 md:text-[25px] ">
+            <p className=" font-Montserrat text-[35px] mt-2 mr-1  ">
               We are aiming to be a part of the major industrialisation drive{" "}
               <br></br> in India and embarking our presence in every significant
               <br></br> industrial domain including IT.
@@ -82,7 +82,7 @@ const Index = () => {
               models for tomorrow.
             </p>
 
-            <button className="rounded-2xl px-6 py-2 mt-5 border-2 border-[#BF5AE0]">
+            <button className="rounded-2xl px-6 py-2 mt-5 border-2 border-[#BF5AE0] hover:">
               Read more
             </button>
           </div>
