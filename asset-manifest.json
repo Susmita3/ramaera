@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ramaera/static/css/main.5149701c.css",
+    "main.js": "/ramaera/static/js/main.f5c39b69.js",
+    "static/js/787.f21f4a5d.chunk.js": "/ramaera/static/js/787.f21f4a5d.chunk.js",
+    "static/media/bg.png": "/ramaera/static/media/bg.ace75e92f62fff8d8115.png",
+    "static/media/Polygon2.png": "/ramaera/static/media/Polygon2.f64b6adf44ae83e49f73.png",
+    "static/media/Polygon.png": "/ramaera/static/media/Polygon.be9e861ea3de18501d17.png",
+    "static/media/Tech.png": "/ramaera/static/media/Tech.34ae62a106e5a6ff5073.png",
+    "static/media/RamaeraHeading.png": "/ramaera/static/media/RamaeraHeading.c0f70d70c0f7023091d6.png",
+    "static/media/Agri.png": "/ramaera/static/media/Agri.9037f9f2d07c3975a8bf.png",
+    "static/media/ecomrce.png": "/ramaera/static/media/ecomrce.d2a0a279d4baedeb3d48.png",
+    "static/media/MainHeading.png": "/ramaera/static/media/MainHeading.22ebbaf78ddc24744210.png",
+    "static/media/Icon.png": "/ramaera/static/media/Icon.23623eb923272944722c.png",
+    "static/media/Icon3.png": "/ramaera/static/media/Icon3.bd406ffa061454eaf104.png",
+    "static/media/Icon2.png": "/ramaera/static/media/Icon2.f5757876eeb65f082599.png",
+    "static/media/Icon5.png": "/ramaera/static/media/Icon5.a90419df49e29a22b4c9.png",
+    "static/media/Icon4.png": "/ramaera/static/media/Icon4.be6f99b919d053572f9c.png",
+    "static/media/logo.png": "/ramaera/static/media/logo.a8f40f02e36d574b8597.png",
+    "index.html": "/ramaera/index.html",
+    "main.5149701c.css.map": "/ramaera/static/css/main.5149701c.css.map",
+    "main.f5c39b69.js.map": "/ramaera/static/js/main.f5c39b69.js.map",
+    "787.f21f4a5d.chunk.js.map": "/ramaera/static/js/787.f21f4a5d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5149701c.css",
+    "static/js/main.f5c39b69.js"
+  ]
+}
