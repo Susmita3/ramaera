@@ -7,7 +7,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="fixed top-0 w-full px-10 py-6 flex items-center flex-row justify-between">
+      <nav className="fixed top-0 w-full px-10 py-6 flex items-center flex-row justify-center">
         {/* Logo parts start */}
         <div className="w-1/12">
           <Link to="/">
@@ -20,7 +20,7 @@ const Nav = () => {
         </div>
 
         {/* Menu part start */}
-        <div className="flex flex-row items-center justify-between border rounded-2xl w-10/12 h-16 p-2 font-Montserrat backdrop-blur">
+        <div className="flex flex-row justify-between border rounded-2xl w-10/12 h-16 p-2 font-Montserrat backdrop-blur ">
           <ul className="flex items-center justify-around w-6/12 text-lg">
             <li>
               <NavLink
@@ -77,63 +77,63 @@ const Nav = () => {
         </div>
 
         {/* Hamburger menu start */}
-          <div className="relative z-10 ">
-            <button
-              className={
-                "flex items-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
-              }
-              onClick={() => setIsOpen(!isOpen)}
+        <div className="relative z-10 lg:hidden">
+          <button
+            className={
+              "flex items-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
+            }
+            onClick={() => setIsOpen(!isOpen)}
+          >
+            <svg
+              className={`w-6 h-6 ${
+                isOpen ? "rotate-45" : ""
+              } transition duration-150 ease-in-out `}
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
             >
-              <svg
-                className={`w-6 h-6 ${
-                  isOpen ? "rotate-45" : ""
-                } transition duration-150 ease-in-out `}
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-              >
-                <path d="M4 6h16M4 12h16M4 18h16"></path>
-              </svg>
-            </button>
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
 
-            {isOpen && (
-              <div className="absolute right-0 z-20 mt-2 py-2 backdrop-blur border rounded-md shadow-xl font-Montserrat font-semibold w-80 text-center text-xl">
-                <a
-                  href="/"
-                  className="block px-4 py-2 text-md text-white hover:bg-gray-100 hover:text-[#E65C00] "
-                >
-                  HOME
-                </a>
-                <a
-                  href="/"
-                  className="block px-4 py-2 text-md text-white hover:bg-gray-100 hover:text-[#E65C00]"
-                >
-                  OUR INDUSTRIES
-                </a>
-                <a
-                  href="/"
-                  className="block px-4 py-2 text-md text-white hover:bg-gray-100 hover:text-[#E65C00]"
-                >
-                  OUR COMPANIES
-                </a>
-                <a
-                  href="/"
-                  className="block px-4 py-2 text-md text-white hover:bg-gray-100 hover:text-[#E65C00]"
-                >
-                  Career
-                </a>
-                <a
-                  href="/"
-                  className="block px-4 py-2 text-md text-white hover:bg-gray-100 hover:text-[#E65C00]"
-                >
-                  Contact
-                </a>
-              </div>
-            )}
-          </div>
+          {isOpen && (
+            <div className="absolute right-0 z-20 mt-2 py-2 backdrop-blur border rounded-md shadow-xl font-Montserrat font-semibold w-80 text-center text-xl">
+              <a
+                href="/"
+                className="block px-4 py-2 text-md text-white hover:bg-gray-100 hover:text-[#E65C00] "
+              >
+                HOME
+              </a>
+              <a
+                href="/"
+                className="block px-4 py-2 text-md text-white hover:bg-gray-100 hover:text-[#E65C00]"
+              >
+                OUR INDUSTRIES
+              </a>
+              <a
+                href="/"
+                className="block px-4 py-2 text-md text-white hover:bg-gray-100 hover:text-[#E65C00]"
+              >
+                OUR COMPANIES
+              </a>
+              <a
+                href="/"
+                className="block px-4 py-2 text-md text-white hover:bg-gray-100 hover:text-[#E65C00]"
+              >
+                Career
+              </a>
+              <a
+                href="/"
+                className="block px-4 py-2 text-md text-white hover:bg-gray-100 hover:text-[#E65C00]"
+              >
+                Contact
+              </a>
+            </div>
+          )}
+        </div>
       </nav>
     </>
   );
