@@ -13,7 +13,7 @@ const Index = () => {
         <main className="text-center flex flex-col items-center justify-center w-11/12 lg:w-10/12">
           <img src={require("../Assets/RamaeraHeading.png")} alt="" className="" />
 
-          <p className="text-white text-5xl font-Montserrat ">
+          <p className="text-white text-4xl font-Montserrat ">
             An incredible multi-industrial approach oriented <br></br> towards
             financial independence, customer focus <br></br> and serving the
             best quality to the people.
