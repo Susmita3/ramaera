@@ -5,15 +5,19 @@ const Index = () => {
   return (
     <>
       {/* Hero Section Start */}
-      <div className="bg-hero w-full h-screen flex items-center flex-row justify-center px-10">
+      <div className="bg-hero w-full h-screen flex items-center flex-row justify-center ">
         <div className="w-1/12 ">
           <SocialNav />
         </div>
 
         <main className="text-center flex flex-col items-center justify-center w-11/12 lg:w-10/12">
-          <img src={require("../Assets/RamaeraHeading.png")} alt="" className="" />
+          <img
+            src={require("../Assets/RamaeraHeading.png")}
+            alt=""
+            className=""
+          />
 
-          <p className="text-white text-4xl font-Montserrat ">
+          <p className="text-white text-4xl md:text-2xl lg:text-4xl font-Montserrat ">
             An incredible multi-industrial approach oriented <br></br> towards
             financial independence, customer focus <br></br> and serving the
             best quality to the people.
@@ -30,10 +34,14 @@ const Index = () => {
       {/* second section start */}
       <section className="bg-gradient-to-r from-black to-gray-800 w-full text-white m-0 p-0">
         <div className="flex items-center flex-row ">
-            <img src={require("../Assets/Polygon.png")} alt="" className="" />
+          <img src={require("../Assets/Polygon.png")} alt="" className="" />
 
-          <div className="text-center ">
-            <img src={require("../Assets/MainHeading.png")} alt="" className="" />
+          <div className="text-center absolute mt-26 md:mt-0 md:relative">
+            <img
+              src={require("../Assets/MainHeading.png")}
+              alt=""
+              className="w-5/6 mx-auto md:6/6"
+            />
             <p className=" font-Montserrat text-[35px] mt-2">
               We are aiming to be a part of the major industrialisation drive
               <br></br> in India and embarking our presence in every significant
@@ -44,8 +52,16 @@ const Index = () => {
 
         {/* 1st box */}
         <div className="font-Montserrat ">
-          <img src={require("../Assets/Line1.png")} alt="" className="absolute -mt-6" />
-          <img src={require("../Assets/Tech.png")} alt="" className="absolute" />
+          <img
+            src={require("../Assets/Line1.png")}
+            alt=""
+            className="absolute -mt-6"
+          />
+          <img
+            src={require("../Assets/Tech.png")}
+            alt=""
+            className="absolute"
+          />
 
           <div className="text-right mr-36">
             <h3 className="text-[55px] font-bold">
@@ -55,7 +71,7 @@ const Index = () => {
               Technology
             </h3>
 
-            <p className="text-[27px]">
+            <p className="text-lg md:text-[27px]">
               We believe in innovation and excellence hence ,<br></br> our
               approach in the field of technology is <br></br> focused to relish
               incredible customer experience <br></br>and stabilising business
@@ -72,9 +88,13 @@ const Index = () => {
         {/* 2nd box */}
         <div className="font-Montserrat">
           <img src={require("../Assets/Line2.png")} alt="" className="" />
-          <img src={require("../Assets/Icon.png")} alt="" className="absolute -mt-72" />
+          <img
+            src={require("../Assets/Icon.png")}
+            alt=""
+            className="absolute -mt-10 md:-mt-72"
+          />
 
-          <div className="ml-36 mt-5">
+          <div className="px-10 md:ml-36 mt-5">
             <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-[#FFE259] to-[#FFA751] text-[55px] font-bold ">
               Making<br></br> accommodations easier
             </h3>
@@ -94,18 +114,28 @@ const Index = () => {
         </div>
 
         {/* 3rd box */}
-        <div className="font-Montserrat">
+        <div className="font-Montserrat mt-96 md:mt-0">
           <img src={require("../Assets/Line3.png")} alt="" className="" />
-          <img src={require("../Assets/Packing.png")} alt="" className="absolute -mt-32 " />
-          <img src={require("../Assets/Icon2.png")} alt="" className="absolute right-0 -mt-60" />
+          <img
+            src={require("../Assets/Packing.png")}
+            alt=""
+            className="absolute mt-48 md:-mt-32 "
+          />
+          <img
+            src={require("../Assets/Icon2.png")}
+            alt=""
+            className="absolute right-0 -mt-60"
+          />
 
           <div className="font-bold text-right -mt-60 mr-36">
-            <h3 className="text-[55px]">Packaging industry for</h3>
+            <h3 className="text-[50px] md:text-[55px]">
+              Packaging industry for
+            </h3>
             <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-[#EACDA3] to-[#D6AE7B] text-[55px]">
               business growth
             </h3>
 
-            <p className="text-[27px] ">
+            <p className="text-xl md:text-[27px] pl-5 mt-5">
               We provide packaging solutions to help your<br></br> business
               flourish with boosted outreach.<br></br> Ensuring the protection,
               containment, and<br></br>
@@ -123,8 +153,16 @@ const Index = () => {
         {/* 4th box */}
         <div className="font-Montserrat">
           <img src={require("../Assets/Line4.png")} alt="" className="" />
-          <img src={require("../Assets/Fmcg.png")} alt="" className="absolute right-0 -mt-96" />
-          <img src={require("../Assets/Icon3.png")} alt="" className="absolute" />
+          <img
+            src={require("../Assets/Fmcg.png")}
+            alt=""
+            className="absolute right-0 -mt-96"
+          />
+          <img
+            src={require("../Assets/Icon3.png")}
+            alt=""
+            className="absolute"
+          />
 
           <div className="font-bold mt-2 ml-36">
             <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-[#F2EFD3] to-[#358D82] text-[55px]">
@@ -147,8 +185,16 @@ const Index = () => {
         {/* 5th box */}
         <div className="font-Montserrat">
           <img src={require("../Assets/Line5.png")} alt="" className="" />
-          <img src={require("../Assets/Agri.png")} alt="" className="absolute -mt-32 " />
-          <img src={require("../Assets/Icon4.png")} alt="" className="absolute right-0 -mt-60" />
+          <img
+            src={require("../Assets/Agri.png")}
+            alt=""
+            className="absolute -mt-32 "
+          />
+          <img
+            src={require("../Assets/Icon4.png")}
+            alt=""
+            className="absolute right-0 -mt-60"
+          />
 
           <div className="font-bold text-right -mt-60 mr-36">
             <h3 className="text-[55px]">Agri-business to bestow</h3>
@@ -172,16 +218,26 @@ const Index = () => {
         {/* 6th box */}
         <div className="font-Montserrat">
           <img src={require("../Assets/Line6.png")} alt="" className="" />
-          <img src={require("../Assets/ecomrce.png")} alt="" className="absolute right-0 -mt-96" />
-          <img src={require("../Assets/Icon5.png")} alt="" className="absolute" />
+          <img
+            src={require("../Assets/ecomrce.png")}
+            alt=""
+            className="absolute right-0 -mt-96"
+          />
+          <img
+            src={require("../Assets/Icon5.png")}
+            alt=""
+            className="absolute"
+          />
 
           <div className="font-bold mt-2 ml-36">
             <h3 className="text-transparent bg-clip-text bg-gradient-to-r from-[#B4DFFD] to-[#EFB79B] text-[55px]">
-            Get all your essentials in<br></br> one place
+              Get all your essentials in<br></br> one place
             </h3>
 
             <p className="text-[27px] ">
-            Ramaera Supermart is an online customer<br></br> oriented marketplace to motivated to provide<br></br> everything you need right at one place under<br></br> the comfort of your homes.
+              Ramaera Supermart is an online customer<br></br> oriented
+              marketplace to motivated to provide<br></br> everything you need
+              right at one place under<br></br> the comfort of your homes.
             </p>
 
             <button className="rounded-2xl px-6 py-2 mt-5 border-2 border-[#B4DFFD]">
@@ -192,7 +248,11 @@ const Index = () => {
         </div>
 
         <div className="bg-bg-gradient-to-r from-black to-gray-800 w-full h-screen">
-            <img src={require("../Assets/Polygon2.png")} alt="" className="absolute right-0 " />
+          <img
+            src={require("../Assets/Polygon2.png")}
+            alt=""
+            className="absolute right-0 "
+          />
         </div>
       </section>
     </>

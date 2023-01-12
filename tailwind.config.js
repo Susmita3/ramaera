@@ -23,7 +23,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url('./components/Assets/bg.png')",
-      },
+      }, 
+
       fontFamily :{
         Montserrat: ['Montserrat Alternates']
       }

@@ -3,7 +3,7 @@ import { RiTwitterFill, RiInstagramFill, RiFacebookFill } from "react-icons/ri";
 
 const SocialNav = () => {
   return (
-    <nav className="text-white flex flex-col space-y-16 fixed">
+    <nav className="text-white flex flex-col ml-1 md:-ml-0 space-y-10 md:space-y-16 fixed">
       
       <a href="https://twitter.com/home">
         <RiTwitterFill className="text-4xl hover:text-blue-400" />

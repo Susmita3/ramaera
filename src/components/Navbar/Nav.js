@@ -7,9 +7,9 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <>
-      <nav className="fixed top-0 w-full px-10 py-6 flex items-center flex-row justify-center">
+      <nav className="fixed top-0 w-full px-10 py-6 flex items-center flex-row justify-between">
         {/* Logo parts start */}
-        <div className="w-1/12">
+        <div className="w-2/12">
           <Link to="/">
             <img
               src={require("../Assets/logo.png")}
@@ -20,12 +20,12 @@ const Nav = () => {
         </div>
 
         {/* Menu part start */}
-        <div className="flex flex-row justify-between border rounded-2xl w-10/12 h-16 p-2 font-Montserrat backdrop-blur ">
-          <ul className="flex items-center justify-around w-6/12 text-lg">
+        <div className="hidden md:hidden lg:flex flex-row justify-between border rounded-2xl w-11/12 h-20 p-2 font-Montserrat backdrop-blur ">
+          <ul className="flex items-center justify-around w-6/12 text-sm xl:text-lg space-x-2">
             <li>
               <NavLink
                 to="/"
-                className="text-white flex items-center gap-2 hover:text-[#E65C00]"
+                className="text-white flex items-center gap-1 hover:text-[#E65C00]"
               >
                 HOME <SlArrowDown />
               </NavLink>
@@ -33,7 +33,7 @@ const Nav = () => {
             <li>
               <NavLink
                 to="/"
-                className="text-white flex items-center gap-2 hover:text-[#E65C00]"
+                className="text-white flex items-center gap-1 hover:text-[#E65C00]"
               >
                 OUR INDUSTRIES <SlArrowDown />
               </NavLink>
@@ -41,14 +41,14 @@ const Nav = () => {
             <li>
               <NavLink
                 to="/"
-                className="text-white flex items-center gap-2 hover:text-[#E65C00]"
+                className="text-white flex items-center gap-1 hover:text-[#E65C00]"
               >
                 OUR COMPANIES <SlArrowDown />
               </NavLink>
             </li>
           </ul>
 
-          <ul className="flex items-center flex-row justify-around w-3/12 text-lg hover:text-[#E65C00]">
+          <ul className="flex items-center flex-row justify-around w-3/12 text-sm xl:text-lg space-x-2 hover:text-[#E65C00]">
             <li>
               <NavLink
                 to="/"
@@ -77,7 +77,7 @@ const Nav = () => {
         </div>
 
         {/* Hamburger menu start */}
-        <div className="relative z-10">
+        <div className="lg:hidden relative z-10">
           <button
             className={
               "flex items-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
@@ -85,7 +85,7 @@ const Nav = () => {
             onClick={() => setIsOpen(!isOpen)}
           >
             <svg
-              className={`w-6 h-6 ${
+              className={`w-8 h-8 ${
                 isOpen ? "rotate-45" : ""
               } transition duration-150 ease-in-out `}
               viewBox="0 0 24 24"

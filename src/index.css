@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @responsive {
+    .bg-gradient-brand {
+        .backgroundImage: {
+            'hero': "url('./components/Assets/bg.png')",
+        }
+    }
+} */
+
