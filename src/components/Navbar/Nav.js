@@ -77,7 +77,7 @@ const Nav = () => {
         </div>
 
         {/* Hamburger menu start */}
-        <div className="relative z-10 lg:hidden">
+        <div className="relative z-10">
           <button
             className={
               "flex items-center p-2 rounded-md text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white"
